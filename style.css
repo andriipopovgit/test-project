@@ -1,0 +1,18 @@
+main {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section:nth-child(even) {
+    background-color: lightblue;
+}
+
+section:nth-child(odd) {
+    background-color: lightgreen;
+}
